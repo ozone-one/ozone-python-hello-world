@@ -1,2 +1,2 @@
-# ozone-python-hello-world
-ozone-python-hello-world
+# in2tive-python-hello-world
+Python hello world program for testing and demo
