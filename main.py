@@ -12,7 +12,7 @@ newrelic.agent.initialize("newrelic.ini")
 @app.route('/', methods=['GET', 'POST'])
 def index():
     return Response(
-        response=json.dumps({'value': "ozone-python-hello-world application"}),
+        response=json.dumps({"welcome": "to ozone onbaording", 'value': "ozone-python-hello-world application"}),
         mimetype='application/json'
     )
 
