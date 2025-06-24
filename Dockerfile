@@ -1,4 +1,4 @@
-FROM ozregistry.azurecr.io/ozone-public-registry/ozoneprod/python:3.8-slim-buster
+FROM blrdbharbor.ozonecloud.ai/ozone-public-registry/ozoneprod/python:3.8-slim-buster
 WORKDIR /app
 COPY . .
 RUN pip3 install -U pip
